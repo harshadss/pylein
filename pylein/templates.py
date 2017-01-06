@@ -1,7 +1,4 @@
 """Define code templates to be included in other files """
-import pdb
-
-
 
 APP_MAIN = """
 import argparse
@@ -84,7 +81,6 @@ def get_main_code(proj_type = "app"):
     return APP_MAIN
 
 def get_setup_code(proj_name, proj_type = "app"):
-    pdb.set_trace()
     if proj_type == "app":
         run_script_name = "{0}-run".format(proj_name)
         return APP_SETUP.format(proj_name, run_script_name)
