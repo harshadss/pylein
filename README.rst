@@ -45,6 +45,7 @@ sequence.
 
   1. Clone the git repository.
   2. Go the project directory
+     
      .. code:: bash
 
      cd pylein
