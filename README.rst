@@ -26,7 +26,7 @@ project.
 
 There are tools in other languages `particularly lein for Clojure
 <leiningen.org>`_ which make this process very smooth. This tool is a very
-(incomplete)cattempt to recreate that magic. The idea is can a newcomer get
+(incomplete) attempt to recreate that magic. The idea is that a newcomer can get
 started to actual project work without studying too many things about setuptools
 and other things.
 
